@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+.banner > h1 {
+    font-family: Roboto;
+    font-weight: 700;
+}
+.modal-btn:hover {
+    transform: scale(1.1);
+}
+.modal-btn {
+    transition: 0.5s transform;
+    box-shadow: 0 1px 1px 0 #d971b1;
+}
+.modal-container {
+    font-family: Roboto;
+    font-weight: 700;
+}
+.close-btn {
+    transition: 1s transform ease-in-out;
+}
+.show-modaloverlay {
+    visibility: visible;
+}
+@media (min-width: 767px) {
+    .hero {
+        width: 35%;
+    }
+    .banner > h1 {
+        font-size: 3rem;
+    }
+    .modal-btn {
+        margin-top: 8vh;
+        width: 10rem;
+        height: 3.5rem;
+    }
+    .modal-container {
+        width: 35%;
+    }
+    .modal-container > h3 {
+        font-size: 2.1rem;
+    }
+}
+.hero {
+    transition: 1s display ease-in-out;
+}
+.modal-overlay {
+    background-color: rgba(127, 255, 204, 0.2);
+}

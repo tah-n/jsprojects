@@ -1,0 +1,103 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body {
+    background-color: rgba(170, 170, 211, 0.248);
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 8rem;
+    font-family: open sans;
+    text-transform: capitalize;
+    text-align: center;
+    min-height: 45vh;
+    box-shadow: 1px 1px 3px 1px rgba(145, 145, 145, 0.199);
+    border-radius: 4px;
+}
+.grocery-form h3 {
+    font-weight: bold;
+    font-size: 1.45rem;
+    letter-spacing: 2.1px;
+    padding-bottom: 1rem;
+}
+#grocery {
+    width: 65vw;
+    height: 5vh;
+    background-color: rgba(170, 170, 211, 0.226);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-left: 0.75rem;
+}
+#grocery:focus{
+    outline: none;
+    border: 2px solid rgba(9, 9, 137, 0.723);
+}
+#grocery::placeholder {
+    color: rgba(85, 85, 105, 0.723);
+    font-weight: bold;
+}
+.submit-btn {
+    width: 22vw;
+    height: 5vh;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgba(128, 128, 214, 0.81);
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: rgb(28, 28, 40);
+    text-align: center;
+}
+.submit-btn:hover {
+    background-color: rgba(128, 128, 214, 0.608);
+}
+@media screen and (min-width: 767px) {
+    .grocery-item {
+        width: 33vw;   
+    }
+    #grocery {
+        height: 6vh;
+    }
+    .submit-btn {
+        height: 6vh;
+    }
+    
+}
+.grocery-container {
+    visibility: hidden;
+}
+.show-container {
+    visibility: visible;
+}
+.alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+    letter-spacing: 2px;
+}
+.alert-success {
+    color: #155724;
+    letter-spacing: 2px;
+    background: #d4edda;
+}
+.grocery-item {
+    min-width: 21rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.grocery-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

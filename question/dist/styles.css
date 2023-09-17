@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+.title {
+    font-family: Great Vibes;
+}
+.question {
+    width: 100%;
+    box-shadow: 1px 0 4px rgba(127, 99, 27, 0.447);
+    margin-bottom: 1rem;
+    font-family: Open;
+    border-radius: 6px;
+}
+.question-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    height: 4rem;
+    text-transform: capitalize;
+    position: relative;
+}
+.border-bottom{
+    width: 90%;
+    bottom: 6rem;
+    left: 1.6rem;
+    position: absolute;
+    border-top: 3px solid rgba(175, 136, 39, 0.244);
+}
+.question-btn {
+    color:goldenrod;
+}
+.question-text {
+    padding: 0.75rem;
+    color: navy;
+    display: none;
+    position: relative;
+}
+.show-text .question-text {
+    display: block;
+}
+.minus-icon, .plus-icon {
+    position: absolute;
+    right: 1rem;
+    bottom: 1.2rem;
+    font-size: larger;
+}
+.minus-icon:hover, .plus-icon:hover {
+    opacity: 0.6;
+}
+.plus-icon::after{
+    transform: rotate(45deg);
+}
+.show-text .plus-icon{
+    display: none;
+}
+.minus-icon {
+    display: inline;
+}
+.show-text .minus-icon 
+{
+    display: inline;
+}

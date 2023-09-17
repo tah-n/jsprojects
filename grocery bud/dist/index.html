@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grocery Bud</title>
+</head>
+<body>
+    <section class="section-center bg-gray-50 w-[27rem] pt-11">
+        <!-- form -->
+        <form class="grocery-form relative">
+            <p class="alert mb-1 mx-2 h-6 text-center font-bold"></p>
+            <h3>grocery bud</h3>
+            <div class="form-control w-full px-7 mb-6 flex items-center justify-center">
+                <input type="text" id="grocery" placeholder="e.g. eggs"/>
+                <button type="submit" class="submit-btn">
+                    submit
+                </button>
+            </div>
+        </form>
+        <!-- list -->
+        <div class="grocery-container w-full">
+            <div class="grocery-list text-center w-full flex justify-center">
+
+            </div>
+            <!-- button -->
+            <button type="button" class="clear-btn capitalize text-center my-4 p-3 ease-in-out transition-all rounded-full font-bold hover:bg-slate-300 hover:text-slate-700">clear items</button>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/6ba034d90e.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

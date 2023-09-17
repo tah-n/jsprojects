@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>count</title>
+</head>
+<body>
+    <main class="bg-gray-200 h-screen w-screen flex items-center justify-center">
+        <div class="container flex flex-col justify-center items-center">
+            <h1 class="text-6xl font-mono font-bold p-2">
+                counter
+            </h1>
+            <span class="text-5xl font-mono p-5" id="value">0</span>
+            <div class="button-container">
+                <button class="btn decrease p-2 text-xl font-mono border border-gray-700 rounded-full ease-in-out hover:bg-gray-500">Decrease</button>
+                <button class="btn reset p-2 text-xl font-mono border border-gray-700 rounded-full ease-in-out hover:bg-gray-500">Reset</button>
+                <button class="btn increase p-2 text-xl font-mono border border-gray-700 rounded-full ease-in-out hover:bg-gray-500">Increase</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./count.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <title>sidebar</title>
+</head>
+<body class="font-serif m-0 p-0">
+        <button class="sidebar-toggle">
+             <i class="fas fa-bars text-3xl text-blue-400 p-4"></i>
+        </button>
+        <aside class="sidebar h-[90vh] w-screen">
+            <div class="sidebar-header flex justify-between p-1">
+                <img src="./img/logo.svg" class="loge" alt="logo">
+                <button class="close-btn text-3xl rotate-45 p-2 ease-in-out hover:rotate-90">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <ul class="links uppercase w-full h-[82vh] text-lg text-gray-600">
+                <li>
+                  <a href="index.html">home</a>
+                </li>
+                <li>
+                  <a href="about.html">about</a>
+                </li>
+                <li>
+                  <a href="projects.html">projects</a>
+                </li>
+                <li>
+                  <a href="contact.html">contact</a>
+                </li>
+              </ul>
+
+              <ul class="social-icons w-full flex items-center justify-center">
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-sketch"></i>
+                  </a>
+                </li>
+              </ul>
+    </aside>
+    
+    
+    <script src="./sidebar.js"></script>
+</body>
+</html>

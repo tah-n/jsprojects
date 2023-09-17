@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>video</title>
+</head>
+<body>
+    <!-- preloader -->
+    <div class="preloader w-screen visible transition-visibility ease-in-out fixed z-10 bg-gray-200 h-screen flex justify-center items-center">
+        <img src="./video/preloader.gif" alt="preloader">
+    </div>
+    <!-- header -->
+    <header class="flex items-center justify-center relative">
+        <video class="video-container w-screen h-screen object-cover z-[-10]" muted autoplay loop>
+            <source src="./video/video.mp4">
+        </video>
+        <!-- heading -->
+        <h1 class="z-6 ml-auto mr-auto text-white font-bold absolute capitalize">video project</h1>    
+        <!-- video switch -->
+        <button class="switch-btn w-28 text-blue-400 flex justify-between items-center rounded-md absolute left-5 bottom-5 h-10 p-2 bg-white">
+            <span>
+                play
+            </span>
+            <span>
+                pause
+            </span>
+            <span class="switch slide"></span>
+        </button>
+    </header>
+    <script src="./video.js"></script>
+</body>
+</html>
